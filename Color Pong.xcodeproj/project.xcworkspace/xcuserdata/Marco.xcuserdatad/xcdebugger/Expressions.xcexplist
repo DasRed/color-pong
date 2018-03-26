@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Store.requestProductData() -&gt; Store:Store.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Store.get(productIdentifier : String) -&gt; Store.Product?:Store.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "productIdentifierName.stringByReplacingOccurrencesOfString(bundleIdentifier, withString: &quot;&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "productIdentifier.rawValue">
+            </PersistentString>
+            <PersistentString
+               value = "Store.Product.Identifier(rawValue: productIdentifierName.stringByReplacingOccurrencesOfString(bundleIdentifier, withString: &quot;&quot;))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Store.get(Store.ProductIdentifier) -&gt; Store.Product!:Store.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Store.productsRequest(SKProductsRequest, didReceiveResponse : SKProductsResponse) -&gt; ():Store.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Store.paymentQueue(SKPaymentQueue, updatedTransactions : [SKPaymentTransaction]) -&gt; ():Store.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Store.Product.paymentQueue(SKPaymentQueue, updatedTransactions : [SKPaymentTransaction]) -&gt; ():Store.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BallNode.updateCounter(Int) -&gt; BallNode:BallNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.speed + CGFloat(self.counter) / 275.0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ButtonSmallNode.init(parent : SKNode, icon : String, position : CGPoint, onTouch : () -&gt; ()) -&gt; ButtonSmallNode:ButtonSmallNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parent.frame.height / 2">
+            </PersistentString>
+            <PersistentString
+               value = "parent.scene!.size.height">
+            </PersistentString>
+            <PersistentString
+               value = "parent.scene?.view?.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScoreScene.didMoveToView(SKView) -&gt; ():ScoreScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSLocale.systemLocale().localeIdentifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.(didMoveToView(GameScene) -&gt; (SKView) -&gt; ()).(closure #2):GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;menu-item-music-&quot; + String(Int(self.controller.settingMusicEnabled))">
+            </PersistentString>
+            <PersistentString
+               value = "self.controller.settingMusicEnabled">
+            </PersistentString>
+            <PersistentString
+               value = "!self.controller.settingMusicEnabled">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.settingMusicEnabled.getter:GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.settings.dictionaryRepresentation()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ColorCircleNode.init(scene : GameScene, orientation : Int) -&gt; ColorCircleNode:ColorCircleNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scene.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayAgainScene.didMoveToView(SKView) -&gt; ():PlayAgainScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;Du hast %i Punkte! Nochmal spielen?&quot;.localized(self.score)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.viewDidLoad() -&gt; ():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scores[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
